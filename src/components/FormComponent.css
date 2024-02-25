@@ -1,0 +1,66 @@
+form {
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 1rem;
+}
+
+input {
+    border: none;
+    background-color: transparent;
+    padding: 0.5rem;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+input::placeholder {
+    text-transform: none;
+    font-size: 1rem;
+    color: var(--gray-placeholder);
+    font-weight: lighter;
+}
+
+input:focus {
+    outline: none;
+}
+
+.image-profile {
+    position: relative;
+    
+}
+
+.image-profile p {
+   color: var(--gray-placeholder);
+}
+
+input[type="file"] {
+    font-size: 0.5rem;
+    text-transform: none;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    color: var(--gray-text);
+}
+
+input[type="submit"] {
+    background-color: var(--orange-bg);
+    padding: 0.5rem 1rem;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+    color: var(--gray-text);
+    cursor: pointer;
+    opacity: 0.8;
+    transition: 0.5s;
+    margin-top: 0.7rem;
+}
+
+input[type="submit"]:hover {
+    opacity: 1;
+}
+
+p {
+    padding: 0 0.5rem;
+}

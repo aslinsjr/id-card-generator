@@ -1,0 +1,12 @@
+h1 {
+    text-align: center;
+    color: var(--back-ground);
+    filter: drop-shadow(1px 1px 1rem black);
+    padding: 1rem;
+}
+.container {
+    display: flex;
+    background-color: var(--back-ground);
+    border-radius: 1rem;
+    box-shadow: 1px 1px 10rem 1px black;
+}
