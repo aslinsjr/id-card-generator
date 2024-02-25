@@ -8,8 +8,8 @@ Essa é uma solução do desafio proposto por [ Saurabh Mhatre: ](https://smhatr
 
 ### Links
 
-- Solução URL: [Repository](https://github.com/aslinsjr/text-decoder)
-- Live Site URL: [GitHub Page](https://aslinsjr.github.io/text-decoder/)
+- Solução URL: [Repository](https://github.com/aslinsjr/id-card-generator)
+- Live Site URL: [GitHub Page](https://id-card-generator-iota.vercel.app/)
 
 ### Desenvolvido com
 
